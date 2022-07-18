@@ -1,0 +1,7 @@
+@use "./breakpoints" as b;
+
+@mixin breakpoints($size) {
+  @media (min-width: map-get(b.$breakpoints-up, $size)) {
+    @content;
+  }
+}

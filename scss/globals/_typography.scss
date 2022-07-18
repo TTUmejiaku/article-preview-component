@@ -1,0 +1,29 @@
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.4;
+  margin-top: 0;
+  color: var(--vdk-grayish-blue);
+}
+
+h1 {
+  font-size: clamp(1.6rem, 1rem + 2vw, 2.5rem);
+}
+
+h2 {
+  font-size: clamp(1.2rem, 0.825rem + 1.5vw, 2.25rem);
+}
+
+p {
+  margin-top: 0;
+  font-size: 1rem;
+  color: var(--des-dk-blue);
+  line-height: 1.6;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
